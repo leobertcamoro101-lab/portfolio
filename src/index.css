@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+* { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background: #070710;
+  color: #e2e8f0;
+  overflow-x: hidden;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, #a78bfa, #60a5fa, #34d399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Gradient border utility */
+.gradient-border {
+  position: relative;
+  background: #0f0f1a;
+  border-radius: 16px;
+}
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 17px;
+  background: linear-gradient(135deg, #a78bfa33, #60a5fa33, #34d39933);
+  z-index: -1;
+}
+
+/* Glow effect */
+.glow {
+  box-shadow: 0 0 40px #a78bfa22, 0 0 80px #60a5fa11;
+}
+
+/* Mono font */
+.font-mono { font-family: 'Space Mono', monospace; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #070710; }
+::-webkit-scrollbar-thumb { background: #a78bfa55; border-radius: 2px; }
+
+/* Section spacing */
+section { padding: 5rem 0; }
