@@ -5,17 +5,17 @@ export const personal = {
   subTagline: 'React developer with nearly 4 years of experience crafting clean, performant web applications.',
   location: 'Cebu City, Philippines 🇵🇭',
   company: 'Sprobe Inc.',
-  email: 'leobert.camoro101@gmail.com',
+  email: 'your@email.com',
   github: 'https://github.com/leobertcamoro101-lab',
-  linkedin: 'https://www.linkedin.com/in/leobert-camoro-1b811a231/',
+  linkedin: 'https://linkedin.com/in/yourprofile',
   availability: 'Open to work',
 };
 
 export const skills = [
-  { category: 'Frontend', items: ['React JS', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Vite'] },
-  { category: 'Backend', items: ['Laravel', 'PHP', 'REST APIs'] },
-  { category: 'Database', items: ['PostgreSQL', 'MySQL'] },
-  { category: 'Tools', items: ['Git', 'GitHub', 'Bash', 'VS Code', 'Postman'] },
+  { category: 'Frontend', items: ['React JS', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Vite', 'Framer Motion'] },
+  { category: 'React Ecosystem', items: ['React Query', 'Context API', 'React Router', 'Custom Hooks', 'useMemo', 'useCallback'] },
+  { category: 'Backend', items: ['Laravel', 'PHP', 'REST APIs', 'Prisma', 'PostgreSQL', 'MySQL'] },
+  { category: 'Tools', items: ['Git', 'GitHub', 'Bash', 'VS Code', 'Postman', 'Turborepo'] },
 ];
 
 export const projects = [
@@ -44,11 +44,11 @@ export const projects = [
   {
     id: 3,
     title: 'Spendr',
-    description: 'Full-featured expense tracker with category filters, date filtering, Recharts visualizations, and localStorage persistence.',
-    tech: ['React', 'Vite', 'Tailwind CSS', 'Recharts'],
+    description: 'Full-featured expense tracker with category filters, date filtering, CSS chart visualizations, and localStorage persistence.',
+    tech: ['React', 'Vite', 'Tailwind CSS', 'localStorage'],
     github: 'https://github.com/leobertcamoro101-lab/Spendr',
     live: 'https://spendr-lac.vercel.app/',
-    highlight: 'useMemo · localStorage · Pie + Bar charts',
+    highlight: 'useMemo · localStorage · CSS Charts',
     color: 'from-green-500 to-emerald-400',
     icon: '💸',
   },
@@ -68,9 +68,23 @@ export const experience = [
 
 export const openSource = [
   {
+    repo: 'calcom/cal.diy',
+    pr: '#30079',
+    description: 'Fixed hardcoded data-testid in VerticalTabItem component, making it truly reusable. Updated component and test file.',
+    url: 'https://github.com/calcom/cal.diy/pull/30079',
+    status: 'Open',
+  },
+  {
+    repo: 'calcom/cal.diy',
+    pr: '#30078',
+    description: 'Removed unused TokenHandler component and its test file after confirming it was not exported or imported anywhere in the codebase.',
+    url: 'https://github.com/calcom/cal.diy/pull/30078',
+    status: 'Open',
+  },
+  {
     repo: 'reactplay/react-play',
     pr: '#1721',
-    description: 'Removed unused imports and fixed Prettier formatting across 3 files, full feature contribution.',
+    description: 'Removed unused imports and fixed Prettier formatting across 3 files.',
     url: 'https://github.com/reactplay/react-play/pull/1721',
     status: 'Open',
   },
