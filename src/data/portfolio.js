@@ -5,9 +5,9 @@ export const personal = {
   subTagline: 'React developer with nearly 4 years of experience crafting clean, performant web applications.',
   location: 'Cebu City, Philippines 🇵🇭',
   company: 'Sprobe Inc.',
-  email: 'your@email.com',
+  email: 'leobert.camoro101@gmail.com',
   github: 'https://github.com/leobertcamoro101-lab',
-  linkedin: 'https://linkedin.com/in/yourprofile',
+  linkedin: 'https://www.linkedin.com/in/leobert-camoro-1b811a231/',
   availability: 'Open to work',
 };
 
