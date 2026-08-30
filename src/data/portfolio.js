@@ -58,7 +58,7 @@ export const experience = [
   {
     company: 'Sprobe Inc.',
     role: 'Software Engineer',
-    period: '2021 – Present',
+    period: 'April 2022 – March 2026',
     duration: 'Nearly 4 years',
     location: 'Cebu City, Philippines',
     description: 'Building and maintaining web applications using React JS, Laravel, and PostgreSQL. Collaborating with cross-functional teams to deliver quality software.',
