@@ -58,7 +58,7 @@ const About = () => {
               {[
                 { value: '4', label: 'Years Experience', icon: '🗓️' },
                 { value: '3+', label: 'Projects Built', icon: '🚀' },
-                { value: '1', label: 'Open Source PR', icon: '🔀' },
+                { value: '4', label: 'Open Source PRs', icon: '🔀' },
                 { value: '∞', label: 'Lines of Code', icon: '💻' },
               ].map(({ value, label, icon }) => (
                 <div key={label} className="gradient-border p-4 sm:p-5 text-center glow">
