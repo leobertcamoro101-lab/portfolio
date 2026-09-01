@@ -36,7 +36,7 @@ export const projects = [
     title: 'TaskFlow',
     description: 'Full-stack task manager with Laravel API backend, React frontend, JWT auth via Sanctum, and PostgreSQL database.',
     tech: ['React', 'Vite', 'Laravel', 'PostgreSQL', 'Sanctum', 'Zustand', 'React Query'],
-    github: 'https://github.com/leobertcamoro101-lab',
+    github: 'https://github.com/leobertcamoro101-lab/TaskFlow-react-laravel',
     live: null,
     highlight: 'Full-stack · REST API · Auth · CRUD',
     color: 'from-violet-500 to-purple-400',
