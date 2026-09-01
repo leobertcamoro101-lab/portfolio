@@ -2,7 +2,7 @@ export const personal = {
   name: 'Leobert',
   role: 'Software Engineer',
   tagline: 'I build things for the web.',
-  subTagline: 'React developer with nearly 4 years of experience crafting clean, performant web applications.',
+  subTagline: 'Full-stack developer with nearly 4 years of experience building React frontends and Laravel APIs.',
   location: 'Cebu City, Philippines 🇵🇭',
   company: 'Sprobe Inc.',
   email: 'leobert.camoro101@gmail.com',
@@ -65,7 +65,7 @@ export const projects = [
     icon: '🎬',
   },
   {
-    id: 4,
+    id: 3,
     title: 'Spendr',
     description: 'Full-featured expense tracker with category filters, date filtering, CSS chart visualizations, and localStorage persistence.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'localStorage'],
