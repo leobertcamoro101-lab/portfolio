@@ -12,15 +12,38 @@ export const personal = {
 };
 
 export const skills = [
-  { category: 'Frontend', items: ['React JS', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Vite', 'Framer Motion'] },
-  { category: 'React Ecosystem', items: ['React Query', 'Context API', 'React Router', 'Custom Hooks', 'useMemo', 'useCallback'] },
-  { category: 'Backend', items: ['Laravel', 'PHP', 'REST APIs', 'Prisma', 'PostgreSQL', 'MySQL'] },
-  { category: 'Tools', items: ['Git', 'GitHub', 'Bash', 'VS Code', 'Postman', 'Turborepo'] },
+  {
+    category: 'Frontend',
+    items: ['React JS', 'Next.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Framer Motion', 'Vite'],
+  },
+  {
+    category: 'State & Data',
+    items: ['Zustand', 'Context API', 'React Query', 'React Router', 'Custom Hooks', 'useMemo', 'useCallback'],
+  },
+  {
+    category: 'Backend',
+    items: ['Laravel', 'PHP', 'REST APIs', 'Laravel Sanctum', 'Prisma', 'PostgreSQL', 'MySQL'],
+  },
+  {
+    category: 'Testing & Tools',
+    items: ['Vitest', 'React Testing Library', 'Git', 'GitHub', 'Bash', 'VS Code', 'Postman', 'Turborepo'],
+  },
 ];
 
 export const projects = [
   {
     id: 1,
+    title: 'TaskFlow',
+    description: 'Full-stack task manager with Laravel API backend, React frontend, JWT auth via Sanctum, and PostgreSQL database.',
+    tech: ['React', 'Vite', 'Laravel', 'PostgreSQL', 'Sanctum', 'Zustand', 'React Query'],
+    github: 'https://github.com/leobertcamoro101-lab',
+    live: null,
+    highlight: 'Full-stack · REST API · Auth · CRUD',
+    color: 'from-violet-500 to-purple-400',
+    icon: '✅',
+  },
+  {
+    id: 2,
     title: 'WeatherNow',
     description: 'Real-time weather app for any city with 5-reading forecast. Built with custom hooks, Axios, and the OpenWeather API.',
     tech: ['React', 'Vite', 'CSS Modules', 'OpenWeather API'],
@@ -31,7 +54,7 @@ export const projects = [
     icon: '🌤',
   },
   {
-    id: 2,
+    id: 3,
     title: 'ReelScout',
     description: 'Movie discovery app with real-time search debounce, cast details, trailers, and pagination. Powered by TMDB API.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'TMDB API'],
@@ -42,7 +65,7 @@ export const projects = [
     icon: '🎬',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Spendr',
     description: 'Full-featured expense tracker with category filters, date filtering, CSS chart visualizations, and localStorage persistence.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'localStorage'],

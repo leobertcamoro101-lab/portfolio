@@ -57,7 +57,7 @@ const About = () => {
             <div className="grid grid-cols-2 gap-3 sm:gap-4">
               {[
                 { value: '4', label: 'Years Experience', icon: '🗓️' },
-                { value: '3+', label: 'Projects Built', icon: '🚀' },
+                { value: '4+', label: 'Projects Built', icon: '🚀' },
                 { value: '4', label: 'Open Source PRs', icon: '🔀' },
                 { value: '∞', label: 'Lines of Code', icon: '💻' },
               ].map(({ value, label, icon }) => (
