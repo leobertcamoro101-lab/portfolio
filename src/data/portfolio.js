@@ -22,12 +22,24 @@ export const skills = [
   },
   {
     category: 'Backend',
-    items: ['Laravel', 'PHP', 'REST APIs', 'Laravel Sanctum', 'Prisma', 'PostgreSQL', 'MySQL'],
+    items: ['Laravel', 'PHP', 'REST APIs', 'Laravel Sanctum', 'PostgreSQL', 'Prisma'],
+  },
+  { 
+    category: "Database", 
+    items: ["PostgreSQL", "MongoDB", "firebase", "Cloudinary"] 
   },
   {
     category: 'Testing & Tools',
     items: ['Vitest', 'React Testing Library', 'Git', 'GitHub', 'Bash', 'VS Code', 'Postman', 'Turborepo'],
   },
+  { 
+    category: "Other",    
+    items: ["NPM", "BUN"] 
+  },
+  {
+    category: 'AI-Assisted Development',
+    items: ["Prompt Engineering", "Claude (Anthropic)", "Codex", "ChatGPT (OpenAI)", "GitHub Copilot"],
+  }
 ];
 
 export const projects = [
