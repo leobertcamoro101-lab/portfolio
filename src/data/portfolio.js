@@ -58,7 +58,7 @@ export const projects = [
     id: 2,
     title: 'WeatherNow',
     description: 'Real-time weather app for any city with 5-reading forecast. Built with custom hooks, Axios, and the OpenWeather API.',
-    tech: ['React', 'Vite', 'CSS Modules', 'OpenWeather API'],
+    tech: ['React', 'Vite', 'Tailwind CSS', 'OpenWeather API'],
     github: 'https://github.com/leobertcamoro101-lab/WeatherNow',
     live: 'https://weather-now-sigma-three.vercel.app/',
     highlight: 'Custom useWeather hook · useEffect · Async/Await',
