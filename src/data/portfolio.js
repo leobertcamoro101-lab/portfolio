@@ -30,7 +30,7 @@ export const skills = [
   },
   {
     category: 'Testing & Tools',
-    items: ['Vitest', 'React Testing Library', 'Git', 'GitHub', 'Bash', 'VS Code', 'Postman', 'Turborepo'],
+    items: ['Vitest', 'React Testing Library', 'Git', 'GitHub', 'Bash', 'VS Code', 'Postman', 'Turborepo', 'Cypress'],
   },
   { 
     category: "Other",    
