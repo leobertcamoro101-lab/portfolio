@@ -12,25 +12,21 @@ export const personal = {
 };
 
 export const skills = [
-  {
+   {
     category: 'Frontend',
     items: ['React JS', 'Next.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Framer Motion', 'Vite'],
   },
   {
     category: 'State & Data',
-    items: ['Zustand', 'Context API', 'React Query', 'React Router', 'Custom Hooks', 'useMemo', 'useCallback'],
+    items: ['Zustand', 'Context API', 'React Query', 'Apollo Client', 'GraphQL', 'React Router', 'WebSockets'],
   },
   {
     category: 'Backend',
-    items: ['Laravel', 'PHP', 'REST APIs', 'Laravel Sanctum', 'PostgreSQL', 'Prisma'],
-  },
-  { 
-    category: "Database", 
-    items: ["PostgreSQL", "MongoDB", "firebase", "Cloudinary"] 
+    items: ['Laravel', 'PHP', 'Node.js', 'REST APIs', 'Laravel Sanctum', 'Prisma', 'PostgreSQL'],
   },
   {
-    category: 'Testing & Tools',
-    items: ['Vitest', 'React Testing Library', 'Git', 'GitHub', 'Bash', 'VS Code', 'Postman', 'Turborepo', 'Cypress'],
+    category: 'Testing & DevOps',
+    items: ['Vitest', 'React Testing Library', 'Docker', 'GitHub Actions', 'CI/CD', 'Nginx', 'Vercel'],
   },
   { 
     category: "Other",    
@@ -56,6 +52,28 @@ export const projects = [
   },
   {
     id: 2,
+    title: 'LinkSnap',
+    description: 'URL shortener built with Next.js App Router and Prisma ORM. Features click tracking, analytics, and server-side rendering.',
+    tech: ['Next.js', 'Prisma', 'PostgreSQL', 'TypeScript'],
+    github: null,
+    live: null,
+    highlight: 'Server Components · Prisma ORM · SSR',
+    color: 'from-blue-500 to-cyan-400',
+    icon: '✂️',
+  },
+  {
+    id: 3,
+    title: 'ChatFlow',
+    description: 'Real-time multi-room chat app with WebSockets. Features typing indicators, online presence, room switching, and instant messaging.',
+    tech: ['React', 'Node.js', 'WebSockets', 'Tailwind CSS'],
+    github: null,
+    live: null,
+    highlight: 'WebSockets · Real-time · Multi-room',
+    color: 'from-green-500 to-emerald-400',
+    icon: '💬',
+  },
+  {
+    id: 4,
     title: 'WeatherNow',
     description: 'Real-time weather app for any city with 5-reading forecast. Built with custom hooks, Axios, and the OpenWeather API.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'OpenWeather API'],
@@ -66,7 +84,7 @@ export const projects = [
     icon: '🌤',
   },
   {
-    id: 3,
+    id: 5,
     title: 'ReelScout',
     description: 'Movie discovery app with real-time search debounce, cast details, trailers, and pagination. Powered by TMDB API.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'TMDB API'],
@@ -77,7 +95,7 @@ export const projects = [
     icon: '🎬',
   },
   {
-    id: 3,
+    id: 6,
     title: 'Spendr',
     description: 'Full-featured expense tracker with category filters, date filtering, CSS chart visualizations, and localStorage persistence.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'localStorage'],

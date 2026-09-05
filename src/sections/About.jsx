@@ -57,9 +57,10 @@ const About = () => {
             <div className="grid grid-cols-2 gap-3 sm:gap-4">
               {[
                 { value: '4', label: 'Years Experience', icon: '🗓️' },
-                { value: '4+', label: 'Projects Built', icon: '🚀' },
-                { value: '4', label: 'Open Source PRs', icon: '🔀' },
+                { value: '6', label: 'Projects Built', icon: '🚀' },
+                { value: '3', label: 'Open Source PRs', icon: '🔀' },
                 { value: '∞', label: 'Lines of Code', icon: '💻' },
+                { value: '10+', label: 'Tech Skills', icon: '💻' }
               ].map(({ value, label, icon }) => (
                 <div key={label} className="gradient-border p-4 sm:p-5 text-center glow">
                   <p className="text-2xl sm:text-3xl mb-1">{icon}</p>
