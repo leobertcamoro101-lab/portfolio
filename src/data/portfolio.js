@@ -22,7 +22,7 @@ export const skills = [
   },
   {
     category: 'Backend',
-    items: ['Laravel', 'PHP', 'Node.js', 'REST APIs', 'Laravel Sanctum', 'Prisma', 'PostgreSQL'],
+    items: ['Laravel', 'PHP', 'Node.js', 'REST APIs', 'Laravel Sanctum', 'Prisma', 'PostgreSQL', 'Redis', 'Stripe'],
   },
   {
     category: 'Testing & DevOps',
@@ -57,7 +57,7 @@ export const projects = [
     tech: ['Next.js', 'Prisma', 'PostgreSQL', 'TypeScript'],
     github: null,
     live: null,
-    highlight: 'Server Components · Prisma ORM · SSR',
+    highlight: 'Server Components · Prisma ORM · SSR Redis caching · Rate limiting · Stripe payments',
     color: 'from-blue-500 to-cyan-400',
     icon: '✂️',
   },
