@@ -40,7 +40,18 @@ export const skills = [
 
 export const projects = [
   {
-    id: 1,
+  id: 7,
+  title: 'JobBoard',
+  description: 'Full-stack job board where companies post jobs and candidates apply. Features search, filtering, and form validation.',
+  tech: ['React', 'TypeScript', 'Laravel', 'PostgreSQL', 'React Query', 'Zod'],
+  github: 'https://github.com/leobertcamoro101-lab',
+  live: null,
+  highlight: 'Full-stack · REST API · Search & Filter · Form Validation',
+  color: 'from-emerald-500 to-teal-400',
+  icon: '💼',
+},
+  {
+    id: 6,
     title: 'TaskFlow',
     description: 'Full-stack task manager with Laravel API backend, React frontend, JWT auth via Sanctum, and PostgreSQL database.',
     tech: ['React', 'Vite', 'Laravel', 'PostgreSQL', 'Sanctum', 'Zustand', 'React Query'],
@@ -51,7 +62,7 @@ export const projects = [
     icon: '✅',
   },
   {
-    id: 2,
+    id: 5,
     title: 'LinkSnap',
     description: 'URL shortener built with Next.js App Router and Prisma ORM. Features click tracking, analytics, and server-side rendering.',
     tech: ['Next.js', 'Prisma', 'PostgreSQL', 'TypeScript'],
@@ -62,7 +73,7 @@ export const projects = [
     icon: '✂️',
   },
   {
-    id: 3,
+    id: 4,
     title: 'ChatFlow',
     description: 'Real-time multi-room chat app with WebSockets. Features typing indicators, online presence, room switching, and instant messaging.',
     tech: ['React', 'Node.js', 'WebSockets', 'Tailwind CSS'],
@@ -73,7 +84,7 @@ export const projects = [
     icon: '💬',
   },
   {
-    id: 4,
+    id: 3,
     title: 'WeatherNow',
     description: 'Real-time weather app for any city with 5-reading forecast. Built with custom hooks, Axios, and the OpenWeather API.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'OpenWeather API'],
@@ -84,7 +95,7 @@ export const projects = [
     icon: '🌤',
   },
   {
-    id: 5,
+    id: 2,
     title: 'ReelScout',
     description: 'Movie discovery app with real-time search debounce, cast details, trailers, and pagination. Powered by TMDB API.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'TMDB API'],
@@ -95,7 +106,7 @@ export const projects = [
     icon: '🎬',
   },
   {
-    id: 6,
+    id: 1,
     title: 'Spendr',
     description: 'Full-featured expense tracker with category filters, date filtering, CSS chart visualizations, and localStorage persistence.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'localStorage'],
@@ -105,6 +116,7 @@ export const projects = [
     color: 'from-green-500 to-emerald-400',
     icon: '💸',
   },
+
 ];
 
 export const experience = [
