@@ -40,16 +40,16 @@ export const skills = [
 
 export const projects = [
   {
-  id: 7,
-  title: 'JobBoard',
-  description: 'Full-stack job board where companies post jobs and candidates apply. Features search, filtering, and form validation.',
-  tech: ['React', 'TypeScript', 'Laravel', 'PostgreSQL', 'React Query', 'Zod'],
-  github: 'https://github.com/leobertcamoro101-lab',
-  live: null,
-  highlight: 'Full-stack · REST API · Search & Filter · Form Validation',
-  color: 'from-emerald-500 to-teal-400',
-  icon: '💼',
-},
+    id: 7,
+    title: 'JobBoard',
+    description: 'Full-stack job board where companies post jobs and candidates apply. Features search, filtering, and form validation.',
+    tech: ['React', 'TypeScript', 'Laravel', 'PostgreSQL', 'React Query', 'Zod'],
+    github: 'https://github.com/leobertcamoro101-lab/JobBoard',
+    live: null,
+    highlight: 'Full-stack · REST API · Search & Filter · Form Validation',
+    color: 'from-emerald-500 to-teal-400',
+    icon: '💼',
+  },
   {
     id: 6,
     title: 'TaskFlow',
