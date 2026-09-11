@@ -45,7 +45,7 @@ export const projects = [
     description: 'Full-stack job board where companies post jobs and candidates apply. Features search, filtering, and form validation.',
     tech: ['React', 'TypeScript', 'Laravel', 'PostgreSQL', 'React Query', 'Zod'],
     github: 'https://github.com/leobertcamoro101-lab/JobBoard',
-    live: null,
+    live: 'https://job-board-rho-green.vercel.app',
     highlight: 'Full-stack · REST API · Search & Filter · Form Validation',
     color: 'from-emerald-500 to-teal-400',
     icon: '💼',
