@@ -77,7 +77,7 @@ export const projects = [
     title: 'ChatFlow',
     description: 'Real-time multi-room chat app with WebSockets. Features typing indicators, online presence, room switching, and instant messaging.',
     tech: ['React', 'Node.js', 'WebSockets', 'Tailwind CSS'],
-    github: null,
+    github: 'https://github.com/leobertcamoro101-lab/Relay',
     live: null,
     highlight: 'WebSockets · Real-time · Multi-room',
     color: 'from-green-500 to-emerald-400',
