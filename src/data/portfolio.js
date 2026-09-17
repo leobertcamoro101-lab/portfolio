@@ -40,11 +40,22 @@ export const skills = [
 
 export const projects = [
   {
+  id: 9,
+  title: 'DevMetrics',
+  description: 'SaaS analytics dashboard with KPI cards, revenue charts, user management table, activity feed, and dark/light theme toggle.',
+  tech: ['React', 'TypeScript', 'Recharts', 'Zustand', 'Tailwind CSS'],
+  github: 'https://github.com/leobertcamoro101-lab',
+  live: 'https://devmetrics-mu.vercel.app',
+  highlight: 'Charts · Dark/Light theme · Pagination · Skeleton UI',
+  color: 'from-violet-500 to-indigo-400',
+  icon: '📊',
+},
+  {
     id: 8,
     title: 'AI Code Reviewer',
     description: 'AI-powered code reviewer using OpenAI GPT-4o-mini with real-time streaming. Supports JS, TS, PHP, Python with review history and token estimation.',
     tech: ['Next.js', 'OpenAI', 'TypeScript', 'Streaming API', 'Tailwind CSS'],
-    github: null,
+    github: 'https://github.com/leobertcamoro101-lab',
     live: 'https://ai-code-reviewer-alpha-eight.vercel.app',
     highlight: 'OpenAI · Streaming · GPT-4o-mini · Real-time',
     color: 'from-pink-500 to-rose-400',
